@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&family=Poppins:wght@300;500&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#company-logo {
+    height: 30px;
+    width: 150px;
+}

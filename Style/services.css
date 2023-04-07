@@ -1,0 +1,47 @@
+.services-body{
+    background-image: url(../Images/services.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrange-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    padding: 0.5rem;
+    width: 20%;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+}
+
+.line{
+    border:solid black;
+    width: 100%;
+}
+
+.card > h1{
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.card>p {
+    background-color: rgb(213, 97, 97);
+    padding: 0.1rem;
+    border-radius: 1rem;
+}
+
+#service-title{
+    text-align: center;
+    text-decoration: underline;
+    margin: 0.3rem;
+}
